@@ -1,0 +1,156 @@
+{
+    "data": [
+        {"ourQualities" : [
+            {
+                "id": 1,
+                "image": "./quality_food.svg",
+                "title": "QUALITY FOOD",
+                "description": "Quality food is not just a meal; it's the foundation of health, happiness, and a life well-lived. " 
+            },
+            {
+                "id": 2,
+                "image": "./super_taste.svg",
+                "title": "SUPER TASTE",
+                "description": "SUPER TASTE isn’t just about flavor—it's an experience. "
+            },
+            {
+                "id": 3,
+                "image": "./fast_delivery.svg",
+                "title": "FAST DELIVERY",
+                "description": "Need something quickly? Our fast delivery service ensures you get what you need without delay, so you can relax and enjoy your stay." 
+            },
+            {
+                "id": 4,
+                "image": "/party order.svg",
+                "title": "PARTY ORDER",
+                "description": "Celebrate in style with our party order service—let us handle the details so you can focus on enjoying the occasion." 
+            }
+        ],
+        "dishes": [
+            {
+                "id": 1,
+                "image": "./dinner1.png",
+                "title": "Chicken Fried Rice",
+                "category": "Dinner"
+            },
+            {
+                "id": 2,
+                "image": "./dinner2.png",
+                "title": "Schezwan Fried Rice",
+                "category": "Dinner"
+            },
+            
+            {
+                "id": 4,
+                "image": "./dinner3.png",
+                "title": "VEG FRIED RICE",
+                "category": "Dinner"
+            },
+           
+            {
+                "id": 6,
+                "image": "./dinner4.png",
+                "title": "Chicken Biryani",
+                "category": "Dinner"
+            },
+            {
+                "id": 7,
+                "image": "./dinner5.png",
+                "title": "Gobi Manchoori",
+                "category": "Sides"
+            },
+            {
+                "id": 8,
+                "image": "./dinner6.png",
+                "title": "Chicken Kabab",
+                "category": "Sides"
+            }
+        ],
+        "team": [
+            {
+                "id": 1,
+                "image": "/naveen.png",
+                "name": "Naveen UM",
+                "designation": "Co Founder"
+            },
+            {
+                "id": 2,
+                "image": "/darshan.png",
+                "name": "Darshan Shetty",
+                "designation": "Co Founder"
+            }
+           
+            
+        ],
+        "testimonials": [
+            {
+                "id": 1,
+                "image": "./review1.png",
+                "description": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus. Eleifend dui, non laoreet ac luctus facilisis diam. Enim scelerisque vel at id viverra tellus.",
+                "rating": 4,
+                "userName": "Jane Cooper"
+            },
+            {
+                "id": 2,
+                "image": "./review2.png",
+                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+                "rating": 4.5,
+                "userName": "Esther Howard"
+            },
+            {
+                "id": 3,
+                "image": "./review3.png",
+                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+                "rating": 5,
+                "userName": "Guy Hawkins"
+            }
+        ],
+        "who_we_are": [
+            {
+                "id": 1,
+                "number": "14",
+                "title": "Restaurants"
+            },
+            {
+                "id": 2,
+                "number": "20",
+                "title": "Chef In Kitchen"
+            },
+            {
+                "id": 3,
+                "number": "08",
+                "title": "Years Of Experience"
+            },
+            {
+                "id": 4,
+                "number": "200",
+                "title": "Food Dishes"
+            }
+        ],
+        "navbarLinks": [
+            {
+                "id": 1,
+                "title": "HOME",
+                "link": "heroSection"
+            },
+            {
+                "id": 2,
+                "title": "ABOUT US",
+                "link": "about"
+            },
+            {
+                "id": 3,
+                "title": "SERVICES",
+                "link": "qualities"
+            },
+            {
+                "id": 4,
+                "title": "TEAM",
+                "link": "team"
+            }
+            
+        ]
+    
+    } 
+    ]
+}
