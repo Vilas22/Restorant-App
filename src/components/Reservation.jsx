@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/reservation/send",
+        "http://localhost:4000/api/v1/reservation/send", // Adjusted URL
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
@@ -30,13 +30,14 @@ const Reservation = () => {
       toast.success(data.message);
       setFirstName("");
       setLastName("");
-      setPhone(0);
+      setPhone("");
       setEmail("");
       setTime("");
       setDate("");
-      navigate("/success");
     } catch (error) {
-      toast.error(error.response.data.message);
+      // Check if error.response is defined before accessing data.message
+      const errorMessage = error.response?.data?.message || 'An unexpected error occurred';
+      toast.error(errorMessage);
     }
   };
 

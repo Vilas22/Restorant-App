@@ -18,7 +18,7 @@ const Home = () => {
         <Menu />
         {/* <WhoAreWe /> */}
         <Team />
-        {/* <Reservation /> */}
+        <Reservation />
         <Footer />
         <WhatsAppButton />
         
